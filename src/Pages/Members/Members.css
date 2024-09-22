@@ -1,0 +1,176 @@
+.members-page {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+}
+
+.all-members {
+    background-color: var(--third-color-dark);
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.all-members h1 {
+    width: auto;
+    padding-top: 40px;
+}
+
+.search-members {
+    width: 100%;
+    min-height: 60vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+
+.one-member {
+    background-color: var(--main-color-dark);
+    margin: 10px;
+    margin-left: 0;
+    min-height: 60px;
+    max-height: 70px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.member-name,
+.member-major,
+.member-add,
+.member-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.member-picture img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+img.dark-line,
+img.light-line {
+    border-width: 3px;
+}
+
+.member-name {
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+.member-major {
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.member-add {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-student form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.search-student input {
+    width: 40%;
+}
+
+@media (max-width : 767px) {
+    .one-member {
+        max-height: 120px;
+    }
+
+    .member-name {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .member-major {
+        font-size: 19px;
+    }
+
+    .member-picture img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .search-student input {
+        width: 80%;
+    }
+
+    .search-student :nth-child(2) {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    .one-member {
+        max-height: 140px;
+    }
+
+    .member-name {
+        font-size: 24px;
+    }
+
+    .member-major {
+        font-size: 24px;
+    }
+
+    .member-picture img {
+        width: 80%;
+        height: 50%;
+    }
+
+}
+
+@media (min-width :992px) {
+    .one-member {
+        max-height: 130px;
+    }
+
+    .member-name {
+        font-size: 26px;
+    }
+
+    .member-major {
+        font-size: 26px;
+    }
+
+    .member-picture img {
+        width: 80%;
+        height: 50%;
+    }
+
+}
+
+
+@media (min-width : 1200px) {
+    .one-member {
+        min-height: 70px;
+        padding-inline: 40px;
+    }
+
+    .member-name {
+        font-size: 38px;
+    }
+
+    .member-major {
+        font-size: 38px;
+    }
+
+    .member-picture img {
+        width: 50%;
+        height: 50%;
+    }
+}

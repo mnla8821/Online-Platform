@@ -1,0 +1,126 @@
+.doctor.container-fluid {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.doctor-profile {
+    width: 100%;
+    background-color: burlywood;
+    background-image: url(../../Assets/Images/Docotrs/doco.jpg);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.doctor-avatar {
+    margin-top: 50px;
+    width: 240px;
+    height: 240px;
+    background-image: url(../../Assets/Images/Student/team-01.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.dark-line {
+    border: 6px solid var(--seconed-color-dark);
+}
+
+.light-line {
+    border: 6px solid var(--seconed-color-light);
+}
+
+.doctor-profile h2 {
+    text-shadow: 2px 2px black;
+}
+
+.doctor-avatar::after {
+    content: "";
+    width: 120px;
+    height: 1.5px;
+    position: absolute;
+    bottom: -20px;
+}
+
+.dark-line::after {
+    background-color: var(--seconed-color-dark);
+}
+
+.light-line::after {
+    background-color: var(--seconed-color-light);
+}
+
+
+.doctor-dash {
+    display: flex;
+    height: auto;
+    min-height: 100vh;
+    height: auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.boxes {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width : 767px) {
+
+    .doctor-profile {
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .row.parent {
+        margin: 0;
+    }
+
+    .one-box,
+    .two-box {
+        margin-inline: 0;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+    .doc-dash {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .dashborad {
+        border-right: 0 !important;
+    }
+
+    .icons-dash {
+        width: 100%;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+
+    .one-box,
+    .two-box {
+        margin-inline: 0;
+        min-height: 314px;
+    }
+
+    .dashborad {
+        border-right: 0 !important;
+    }
+
+}

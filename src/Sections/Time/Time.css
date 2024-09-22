@@ -1,0 +1,264 @@
+.about-time.container-fluid {
+    padding: 0;
+    height: 100vh;
+    background-image: url(../../Assets/Images/Home/main-slider-02.jpg);
+    background-size: cover;
+}
+
+.time.row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.real-time {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.real-time h4 {
+    text-transform: capitalize;
+    font-size: 50px;
+    padding: 0 40px 40px 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.remain-time {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.val {
+    display: flex;
+    flex-direction: column;
+    background-color:
+        rgba(250, 250, 250, 0.1);
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 180px;
+    margin: 2px;
+
+}
+
+.val span {
+    color: white;
+    font-size: 45px;
+    padding: 10px;
+    line-height: 1.2;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.val em {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.idea {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-idea {
+    width: 65%;
+    background-color: rgba(250, 250, 250, 0.2);
+    height: 15%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    background-color: rgba(250, 250, 250, 0.1);
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    height: 50%;
+}
+
+.form-input input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    border: none;
+    background-color: rgba(250, 250, 250, 0.2);
+    color: white;
+}
+
+.form-input input::placeholder {
+    color: white;
+}
+
+.form-input .dark-mode-text:focus {
+    outline-color: var(--seconed-color-dark);
+}
+
+.form-input .light-mode-text:focus {
+    outline-color: var(--seconed-color-light);
+}
+
+.send.dark-mode {
+    background-color: var(--seconed-color-dark);
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 5px var(--main-color-dark);
+}
+
+.send.light-mode {
+    background-color: var(--seconed-color-light);
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 5px var(--main-color-dark);
+}
+
+
+@media (max-width : 767px) {
+
+
+    .about-time.container-fluid {
+        background-color: red;
+        height: 100%;
+    }
+
+    .real-time h4 {
+        font-size: 40px;
+        padding: 20px 50px;
+    }
+
+    .remain-time {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .val {
+        width: 42.3%;
+    }
+
+    .new-idea {
+        width: 90%;
+    }
+
+    .form-input {
+        width: 90%;
+        height: auto;
+    }
+
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+
+
+    .about-time.container-fluid {
+        background-color: red;
+        height: 100%;
+    }
+
+    .real-time h4 {
+        font-size: 40px;
+        padding: 20px 50px;
+    }
+
+    .remain-time {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .val {
+        width: 42.3%;
+    }
+
+    .new-idea {
+        width: 90%;
+    }
+
+    .form-input {
+        width: 90%;
+        height: auto;
+    }
+
+}
+
+@media (min-width :992px) {
+
+
+    .real-time h4 {
+        font-size: 42px;
+        padding: 20px 50px;
+    }
+
+    .remain-time {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .val {
+        width: 42.3%;
+    }
+
+    .new-idea {
+        width: 90%;
+    }
+
+    .form-input {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (min-width : 1200px) {
+
+    .real-time h4 {
+        font-size: 55px;
+        padding: 20px 50px;
+    }
+
+    .remain-time {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .val {
+        width: 24%;
+    }
+
+    .new-idea {
+        width: 80%;
+    }
+
+    .form-input {
+        width: 80%;
+        height: auto;
+    }
+
+}

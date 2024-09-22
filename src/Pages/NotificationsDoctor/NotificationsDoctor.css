@@ -1,0 +1,36 @@
+.note-doctor {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: var(--third-color-dark);
+}
+
+.note-doctor-msg1 {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.note-doc-info {
+    background-color: var(--third-color-dark);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.note-doc-info:hover {
+    background-color: var(--main-color-dark);
+    cursor: pointer;
+}
+
+.note-doc-name {
+    font-size: 30px;
+}
+
+.nothing {
+    height: 0px;
+    display: none;
+}

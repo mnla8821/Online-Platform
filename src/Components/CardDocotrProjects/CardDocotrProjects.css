@@ -1,0 +1,22 @@
+.color1 {
+    background-color: var(--third-color-dark) !important;
+    color: white;
+
+}
+
+.color2 {
+    background-color: var(--third-color-light) !important;
+    color: white;
+}
+
+.parent-remove {
+    margin-top: 66px !important;
+}
+
+
+
+.doctor-card p {
+    height: 100px;
+    padding-inline: 30px;
+    text-align: center;
+}

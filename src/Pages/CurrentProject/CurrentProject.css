@@ -1,0 +1,164 @@
+.doctor-project.container-fluid {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-size: cover;
+    background-position: center -340px;
+    padding: 0;
+    position: relative;
+}
+
+.dark-photo {
+    background-image: url(../../Assets/Images/Docotrs/CurrentPage.jpg);
+}
+
+.light-photo {
+    background-image: url(../../Assets/Images/Docotrs/light1pic.png);
+}
+
+.row.my-project {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.doctor-card {
+    margin-right: 30px;
+    min-height: 510px;
+    height: auto !important;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 0 !important;
+    margin-top: 50px !important;
+    cursor: pointer;
+}
+
+.doctor-card:hover {
+    box-shadow: 2px 2px 8px white;
+    transition: .4s;
+}
+
+.imgo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+
+.imgo {
+    width: 100%;
+
+    height: 210px;
+}
+
+.doctor-card h4 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.doctor-card p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.parent-remove {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.remove {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 17px;
+    margin: 0 10px 3px 0;
+}
+
+.remove:hover {
+    box-shadow: 5px 5px 50px red;
+}
+
+.add-peoject {
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 50%;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 17px;
+    position: absolute;
+    bottom: 3%;
+    left: 90%;
+    cursor: pointer;
+}
+
+.add-peoject:hover {
+    border: 3px solid white;
+}
+
+.dark-add {
+    background-color: var(--seconed-color-dark);
+}
+
+.dark-add:hover {
+    box-shadow: 5px 5px 70px var(--seconed-color-dark);
+}
+
+.light-add {
+    background-color: var(--seconed-color-light);
+}
+
+.light-add:hover {
+    box-shadow: 5px 5px 70px var(--seconed-color-light);
+}
+
+
+.dark.strange {
+    background-color: var(--third-color-dark);
+    position: absolute;
+}
+
+.light.strange {
+    position: absolute;
+}
+
+@media (max-width: 767px) {
+
+    .my-project {
+        padding-inline: 20px;
+    }
+
+    .doctor-card {
+        margin-inline: 20px;
+        height: auto;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    .doctor-card {
+        margin-inline: 15px;
+    }
+}
+
+@media (min-width :992px) {
+
+    .doctor-card {
+        height: auto;
+    }
+
+}

@@ -1,0 +1,113 @@
+.suggeted-project.container-fluid {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-size: cover;
+    background-position: center -340px;
+    padding: 0;
+}
+
+.my-suggeted-project.row {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.suggeted-card {
+    margin-right: 30px;
+    height: 510px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 0 !important;
+    margin-top: 50px !important;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.suggeted-card:hover {
+    box-shadow: 2px 2px 8px white;
+    transition: .4s;
+}
+
+
+
+
+.opinion {
+    width: 100%;
+    /* background-color: yellow; */
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.agree {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 8px;
+    width: 35%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agree:hover {
+    width: 45%;
+    transition: .3s;
+    color: black;
+    background-color: greenyellow;
+}
+
+.reject {
+    background-color: crimson;
+    color: white;
+    padding: 10px 8px;
+    width: 35%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reject:hover {
+    width: 45%;
+    transition: .3s;
+    color: black;
+    background-color: red;
+}
+
+@media (max-width: 767px) {
+
+    .my-suggeted-project {
+        padding-inline: 20px;
+    }
+
+    .suggeted-card {
+        margin-inline: 20px;
+        height: auto;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    .suggeted-card {
+        margin-inline: 15px;
+        height: auto;
+    }
+}
+
+@media (min-width :992px) {
+
+    .suggeted-card {
+        height: auto;
+    }
+
+}
