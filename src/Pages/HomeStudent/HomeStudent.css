@@ -1,0 +1,9 @@
+.home-student {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Assets/Images/Home/courses-bg.jpg");
+}

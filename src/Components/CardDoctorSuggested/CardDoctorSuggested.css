@@ -1,0 +1,8 @@
+.suggeted-card {}
+
+
+.suggeted-card .doctor-card {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+}

@@ -1,0 +1,44 @@
+.first-register {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--third-color-dark);
+}
+
+.first-reg {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-reg .form-reg {
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 20px 50px yellow;
+}
+
+.rr {
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+
+.form-reg label {
+    font-size: 16px;
+    margin: 0;
+    padding: 7px;
+    /* text-align: center; */
+    width: 100%;
+}
+
+.form-reg input {
+    /* margin-left: 10%; */
+    width: 80%;
+    /* margin: 16px; */
+}

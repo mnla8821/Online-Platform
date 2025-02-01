@@ -1,0 +1,94 @@
+.multi-boxes {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one-box,
+.three-box {
+    background-color: var(--seconed-color-dark);
+    background-color: var(--seconed-color-light);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 314px;
+    color: white;
+}
+
+.one-box h3,
+.two-box h3 {
+    padding: 30px 20px;
+    text-transform: capitalize;
+}
+
+.one-box h3 a,
+.two-box h3 a {
+    text-decoration: none;
+}
+
+.one-box p,
+.two-box p {
+    padding-inline: 20px;
+}
+
+.one-box:hover {
+    transition: .3s;
+    box-shadow: 2px 2px 7px black;
+    cursor: pointer;
+}
+
+.light-box {
+    background-color: var(--seconed-color-light);
+}
+
+.dark-box {
+    background-color: var(--seconed-color-dark);
+}
+
+
+.two-box {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 314px;
+    color: white;
+}
+
+.two-box:hover,
+.three-box:hover {
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 2px 2px 7px black;
+    cursor: pointer;
+}
+
+
+
+.dark-color-box {
+    background-color: var(--third-color-dark);
+}
+
+.light-color-box {
+    background-color: var(--third-color-light);
+}
+
+@media (max-width: 768px) {
+
+    .one-box,
+    .two-box {
+        margin-inline: 0;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+
+    .one-box,
+    .two-box {
+        margin-inline: 0;
+    }
+}

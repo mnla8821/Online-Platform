@@ -1,0 +1,213 @@
+.foot {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../Assets/Images/Home/contact-bg.jpg);
+}
+
+.my-footer {
+    margin-top: 10px;
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments {
+    height: 90%;
+    background-color: #202b41;
+    margin-right: 20px;
+}
+
+.my-info {
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    height: 20%;
+}
+
+.my-info input {
+    border-color: transparent transparent gray transparent;
+    border-width: 0 0 2px 0;
+    outline: none;
+    padding: 8px 2px;
+    margin: 6px 6px 6px 0;
+    background-color: rgba(250, 250, 250, 0.1);
+    color: white;
+    width: 44.2%;
+}
+
+.my-info input::placeholder {
+    color: rgba(255, 255, 255, 0.751);
+    padding-left: 10px;
+}
+
+.my-comment {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.my-comment input {
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border-width: 0 0 2px 0;
+    background-color: rgba(250, 250, 250, 0.1);
+    border-color: transparent transparent gray transparent;
+    color: white;
+}
+
+.my-comment input::placeholder {
+    text-align: center;
+    color: white;
+}
+
+.my-btn {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+
+}
+
+.map {
+    height: 90%;
+    margin-left: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.foot-description {
+    color: white;
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width : 767px) {
+
+    .foot {
+        height: auto;
+    }
+
+
+    .container-fluid.contact {
+        padding: 0;
+    }
+
+    .row.my-footer {
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+    }
+
+    .row .comments {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 50%;
+    }
+
+    .row .map {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 50%;
+    }
+
+    .foot-description {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+    }
+
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    .foot {
+        height: auto;
+    }
+
+    .container-fluid.contact {
+        padding: 0;
+    }
+
+    .row.my-footer {
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+    }
+
+    .row .comments {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 50%;
+    }
+
+    .row .map {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 50%;
+    }
+
+    .foot-description {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+    }
+}
+
+@media (min-width :992px) {
+    
+}
+
+@media (min-width : 1200px) {
+    .home-about {
+        padding: .8% 0 1% 0;
+        margin: 0 0 0 1%;
+        transform: translateY(0px);
+        width: 100%;
+        height: 7vh;
+        font-size: 14px;
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .real-time h4 {
+        font-size: 55px;
+        padding: 20px 50px;
+    }
+
+    .remain-time {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .val {
+        width: 24%;
+    }
+
+    .new-idea {
+        width: 80%;
+    }
+
+    .form-input {
+        width: 80%;
+        height: auto;
+    }
+
+}

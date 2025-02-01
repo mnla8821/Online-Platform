@@ -1,0 +1,24 @@
+.allocations {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: var(--third-color-dark);
+}
+
+.row.your-allocations {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row.your-allocations .one-member {
+    margin: 0 !important;
+}
+
+.row.your-allocations h1 {
+    width: fit-content;
+}

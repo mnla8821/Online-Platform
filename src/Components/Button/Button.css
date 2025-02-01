@@ -1,0 +1,27 @@
+.button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-style: 18px;
+    font-weight: 600;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.dark-mode-btn {
+    background-color: var(--seconed-color-dark);
+}
+
+.light-mode-btn {
+    background-color: var(--seconed-color-light);
+}
+
+.dark-mode-btn:hover {
+    color: var(--seconed-color-dark);
+    transition: .7s;
+}
+
+.light-mode-btn:hover {
+    color: var(--seconed-color-light);
+    transition: .7s;
+}

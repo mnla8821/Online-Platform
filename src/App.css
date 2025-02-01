@@ -1,0 +1,24 @@
+:root {
+  --main-color-dark: rgba(22, 34, 57, 0.95);
+  --seconed-color-dark: #f5a425;
+  --third-color-dark: #0c1228;
+  /* --third-color-dark: #141824; */
+  --main-color-light: rgb(1, 43, 103);
+  --seconed-color-light: blueviolet;
+  --third-color-light: #231f5d;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.row {
+  margin: 0 !important;
+}
