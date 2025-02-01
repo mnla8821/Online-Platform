@@ -25,4 +25,4 @@ Take your project from home .
 - Bootstrap: For styling the UI.
 
 ## Screenshot 
-![seccenshot](src\Assets\Images\Home\platform.png)
+![seccenshot](src/Assets/Images/Home/platform.png)
